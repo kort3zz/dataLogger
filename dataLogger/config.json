@@ -1,0 +1,88 @@
+{
+    "objects": [
+        {
+            "id": 1,
+            "name": "Temperature",
+            "type": "float",
+            "condition": "between",
+            "min": 20.0,
+            "max": 80.0,
+            "trend": true
+        },
+        {
+            "id": 2,
+            "name": "Pressure",
+            "type": "int",
+            "condition": "between",
+            "min": 10,
+            "max": 50,
+            "trend": true
+        },
+        {
+            "id": 3,
+            "name": "Speed",
+            "type": "byte",
+            "condition": "greater",
+            "min": 100,
+            "trend": true
+        },
+        {
+            "id": 4,
+            "name": "Enabled",
+            "type": "bool",
+            "condition": "equal",
+            "value": true,
+            "trend": false
+        },
+        {
+            "id": 5,
+            "name": "DeviceName",
+            "type": "string",
+            "condition": "equal",
+            "value": "Sensor-A",
+            "trend": false
+        },
+        {
+            "id": 6,
+            "name": "Humidity",
+            "type": "float",
+            "condition": "between",
+            "min": 30.0,
+            "max": 70.0,
+            "trend": true
+        },
+        {
+            "id": 7,
+            "name": "Counter",
+            "type": "int",
+            "condition": "greater",
+            "min": 1000,
+            "trend": false
+        },
+        {
+            "id": 8,
+            "name": "Signal",
+            "type": "byte",
+            "condition": "between",
+            "min": 50,
+            "max": 200,
+            "trend": true
+        },
+        {
+            "id": 9,
+            "name": "Active",
+            "type": "bool",
+            "condition": "equal",
+            "value": false,
+            "trend": false
+        },
+        {
+            "id": 10,
+            "name": "Voltage",
+            "type": "float",
+            "condition": "less",
+            "max": 240.0,
+            "trend": true
+        }
+    ]
+}
